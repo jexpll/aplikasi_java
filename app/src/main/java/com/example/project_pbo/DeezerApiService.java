@@ -11,7 +11,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Adapter API Deezer. Parsing JSON dilakukan berdasarkan field, bukan urutan teks. */
 public class DeezerApiService implements MusicApiService {
     private static final String API_URL = "https://api.deezer.com/search?q=%s&limit=10";
     private static final int TIMEOUT_MS = 5000;
